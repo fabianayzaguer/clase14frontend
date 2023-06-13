@@ -23,6 +23,7 @@ h1 {
   position: sticky;
   top: 0;
   z-index: 10;
+  box-shadow: 0px 0px 20px grey;
 }
 
 /********** ESTILOS PARA EL MAIN **********/
@@ -100,6 +101,21 @@ section article button {
   padding: 10px 30px;
 }
 
+#button-more {
+  border: none;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 94vw;
+  top: 50vh;
+  background-color: none;
+}
+
+#button-more :hover {
+  
+}
+
+
 /********** ESTILOS PARA EL FOOTER **********/
 
 footer {
@@ -116,6 +132,116 @@ footer img {
   position: absolute;
   right: 25px;
   width: 100px;
+}
+
+/* formulario */
+.form {
+  background-color:#00669f;
+  margin: 40px;
+  position: relative;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 60vw;
+  color: #FFFFFF;
+  border-radius: 50px;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;  
+  height: 60vh;
+  width: 50vw;
+  
+}
+
+form label{
+  margin-left: 20px;
+}
+
+form input {
+  width: 400px;
+  height: 50px;
+  margin: 20px 20px;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+#descripcion {
+  height: 300px;
+  
+}
+
+#espe {
+  width: 40%;
+  height: 50px;
+  margin: 20px 0px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.poderes {
+  width: 50%;
+  margin: 30px 0px;
+}
+
+.poderes input{
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  margin: 5px;
+}
+
+hr {
+  width: 20vw;
+}
+
+.tipo {
+  height: 100px;
+}
+
+.tipo input{
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  margin: 8px;
+}
+
+.titles h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 0px;
+}
+
+.titles h5 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+#añadir {
+  border: none;
+  background-color: #1cd1b0;
+  color: #001D2D;
+  height: 100px;
+  width: 400px;
+  border-radius: 30px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 5px;
 }
 
 /*** Responsive */

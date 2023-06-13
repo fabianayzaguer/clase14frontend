@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <p>Descuentos 20%</p>
+      </header>
+        <h1>Super Héroes</h1>
+
+    <main>
+        <div class="form">
+            <div class="titles">
+                <h2>Añadí tu super!</h2>
+                <h5>Agregá tu personaje favorito completando las opciones.</h5>
+            </div>
+            <form action="">
+                <label for="nombre">*Nombre</label>
+                <input type="text" name="nombre">
+                
+                <label for="fecha">Fecha</label>
+                <input type="date" name="fecha">
+                
+                <input type="textarea" placeholder="Descripción" id="descripcion" name="descripcion">
+                
+                <label for="especie">*Especie</label>
+                <select name="especie" id="espe">
+                    <option value="meta">Meta-humano</option>
+                    <option value="mutante">Mutante</option>
+                    <option value="Extraterrestre">Extraterrestre</option>
+                    <option value="Otro">otro</option>
+                  </select>
+                
+                <label for="foto">Agregar foto</label>
+                <input type="file" name="foto" id="">
+                
+                <div class="poderes">
+                    <h4>Poderes</h4>
+                    <input type="checkbox" name="poder" id="" value="volar"> 
+                    <label for="poder">Volar</label><br>
+                    <input type="checkbox" name="" id="" value="superinteligencia">
+                    <label for="">Superinteligencia</label><br>
+                    <input type="checkbox" name="" id="" value="vista-laser">
+                    <label for="">Vista de rayo láser</label><br>
+                    <input type="checkbox" name="" id="" value="billetera">
+                    <label for="">Billetera gorda</label>
+                </div>
+                <hr>
+                <div class="tipo">
+                    <h4>Tipo de personaje</h4>
+                    <input type="radio" name="tipo" value="H">
+                    <label for="">Héroe / Heroina</label><br>
+                    <input type="radio" name="tipo" value="V">
+                    <label for="">Villano / Villana</label>
+                </div>
+
+                
+            </form><button type="button" id="añadir">Añadir</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados a FE1</p>
+        <img src="img/gitHub.svg" alt="Logo de gitHub" />
+    </footer>  
+</body>
+</html>
