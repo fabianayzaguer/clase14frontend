@@ -107,13 +107,17 @@ section article button {
   background-color: #FFFFFF;
   position: absolute;
   left: 94vw;
-  top: 50vh;
-  background-color: none;
+  top: 40vh;
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/Button.png);
 }
 
-#button-more :hover {
-  
+#button-more:active{
+  background-image: url(../img/Button\ \(1\).png);
 }
+
+
 
 
 /********** ESTILOS PARA EL FOOTER **********/
@@ -139,7 +143,7 @@ footer img {
   background-color:#00669f;
   margin: 40px;
   position: relative;
-  left: 20%;
+  left: 17%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,6 +203,24 @@ form input {
   margin: 5px;
 }
 
+.mycheck {
+  cursor: pointer;
+  background-color: #fff;
+  appearance: none;
+  transition: 0.3s ease-in-out;
+  
+}
+
+.mycheck:checked {
+    background-color: #1cd1b0;
+    transition: 0.3s ease-in-out;
+    background-image: url(../img/corazon.png);
+    z-index: -1;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
 hr {
   width: 20vw;
 }
@@ -236,6 +258,13 @@ hr {
   border-radius: 30px;
   font-size: 50px;
   font-weight: 700;
+}
+
+#añadir:active {
+  background-color: #001D2D;
+  color: #f3f3f3;
+  border: solid 2px #D1891C ;
+  
 }
 
 h4 {
